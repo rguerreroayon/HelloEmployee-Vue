@@ -12,7 +12,7 @@
 
       <v-toolbar-items>
         
-        <v-btn text to="/">Home</v-btn>
+        <v-btn text to="/home">Home</v-btn>
         <v-btn text to="/profile">Mi Perfil</v-btn>
         <v-btn text to="/beneficios">Mis beneficios</v-btn>
         <v-btn text to="/check">Check In & Out</v-btn>

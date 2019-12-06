@@ -7,13 +7,20 @@ import Profile from '../views/Profile.vue'
 import Beneficios from '../views/Beneficios.vue'
 import AdminOffice from '../views/AdminOffice.vue'
 import Reportes from '../views/Reportes.vue'
+import Login from '../views/Login.vue'
 
 
 Vue.use(VueRouter)
 
 const routes = [
+
   {
     path: '/',
+    name: 'login',
+    component: Login
+  },
+  {
+    path: '/home',
     name: 'home',
     component: Home
   },
